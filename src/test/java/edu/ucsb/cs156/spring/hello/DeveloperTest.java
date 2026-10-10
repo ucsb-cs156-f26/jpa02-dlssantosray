@@ -42,6 +42,11 @@ public class DeveloperTest {
         assertTrue(t.getMembers().contains("Vishwath"),"Team should contain Vishwath");
     }
 
+    @Test
+    public void getGithubId_returns_correct_id() {
+    assertEquals("dlssantosray", Developer.getGithubId());
+    }
+
 
 
 
