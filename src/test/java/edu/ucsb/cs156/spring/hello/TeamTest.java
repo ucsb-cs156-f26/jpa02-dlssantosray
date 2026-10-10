@@ -21,9 +21,8 @@ public class TeamTest {
 
    
     @Test
-    public void getGithubId_returns_correct_id() {
-    Developer developer = new Developer();
-    assertEquals("EXPECTED_GITHUB_ID", developer.getGithubId());
+    public void getGithubId_returns_correct_githubId() {
+    assertEquals("dlssantosray", Developer.getGithubId());
     }
 
 }
